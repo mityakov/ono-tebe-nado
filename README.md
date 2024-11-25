@@ -1,1 +1,1 @@
-https://github.com/mityakov/ono-tebe-nado/tree/main
+https://github.com/mityakov/ono-tebe-nado/tree/main.
