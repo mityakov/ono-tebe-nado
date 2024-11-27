@@ -113,7 +113,7 @@
     letter-spacing: 0.6em;
 }
 
-.letter-spacing-extended-n{
+.letter-spacing-extended-n {
     letter-spacing: 0.3em;
 }
 .no-letter-spacing {
@@ -278,7 +278,7 @@
 }
 
 .about__column {
-    display: grid; 
+    display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     column-gap: 25px;
