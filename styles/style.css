@@ -282,7 +282,7 @@
     display: flex;
     flex-wrap: nowrap;
     gap: 25px;
-    list-style: none; 
+    list-style: none;
 }
 
 .about__block-text {
