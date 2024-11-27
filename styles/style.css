@@ -273,53 +273,69 @@
 }
 
 .about {
-    margin-top: 146px;
-    padding: 0px 24px;
+    height: 100%;
+    padding: 136px 24px 100px;
+    display: flex;
 }
 
 .about__column {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    column-gap: 25px;
-    height: 100%;
- }
-   
-.about__logo {
-    grid-row-start: 1;
-    grid-column-start: 1;
-    grid-row-end: 3;
-    grid-column-end: 3;
-    justify-items: stretch;
-    padding-left: 46px;
-    margin-top: 35px;
- }
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 25px;
+    list-style: none; 
+}
 
+.about__block-text {
+    height: 100%;
+    width: 693px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.about__logo {
+    display: block;
+    height: 334px;
+    width: 334px;
+    position: relative;
+}
+
+.about__logo-fon {
+    width: 240px;
+    height: 240px;
+    fill: none;
+    border-radius: 100%;
+    background: #000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: auto;
+}
+
+.about__logo-image {
+    height: 114px;
+    width: 148px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: auto;
+}
 .about__title {
-    grid-row-start: 1;
-    grid-column-start: 3;
-    grid-row-end: 3;
-    grid-column-end: 7;
     width: auto;
     height: 100%;
     font-weight: 700;
     font-size: 40px;
     text-transform: uppercase;
     color: #000;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding-top: 40px;
-    }
-
-.about__text {
-    grid-row-start: 3;
-    grid-column-start: 3;
-    grid-row-end: 6;
-    grid-column-end: 7;
-    padding-top: 5px;
+    margin: 150px 0 75px;
 }
+
 .about__text-1 {
     display: block;
     font-weight: 400;
@@ -327,7 +343,6 @@
     line-height: 120%;
     letter-spacing: 0.01em;
     color: #000;
-    padding-bottom: 25px;
 }
 
 .about__text-2 {
@@ -337,15 +352,6 @@
     line-height: 120%;
     color: #000;
 }
-
-.about__logo-image {
-    width: 240px;
-    height: 240px;
-    fill: none;
-    border-radius: 100%;
-    background: #000;
-}
-
 .footer {
     display: flex;
     justify-content: space-between;
