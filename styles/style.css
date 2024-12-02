@@ -27,12 +27,12 @@
     display: block;
     height: 105px;
     width: 148px;
-    padding-left: 10px;
+    padding-left: 7px;
 }
 
-.header__logo-image{
-    height: 105px;
-    width: 130px;
+.header__logo-image {
+    height: 110px;
+    width: 135px;
 }
 .header__links-list-item_no-bullet {
     list-style: none;
@@ -48,7 +48,7 @@
     text-decoration: none;
 }
 
-.header__address{
+.header__address {
     margin-left: 185px;
     margin-top: 5px;
     max-width: 240px;
@@ -122,7 +122,6 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 127%;
-    text-transform: uppercase;
     color: #fff;
     padding: 27px 0px 50px 82px;
     gap: 82px;
@@ -341,7 +340,7 @@
     margin-bottom: 2px;
 }
 
-.footer__address{
+.footer__address {
     max-width: 240px;
     text-align: start;
     align-self: center;
